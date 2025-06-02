@@ -3,7 +3,7 @@ import pandas as pd
 import random
 from datetime import datetime
 from config import FILE_PATH, EMISSION_FACTORS
-from .chatbot_handlers import (
+from chatbot_handlers import (
     handle_total_weight,
     handle_composition,
     handle_collections,
