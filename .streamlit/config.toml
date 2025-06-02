@@ -1,0 +1,18 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+runOnSave = true
+
+[theme]
+base = "light"
+primaryColor = "#80C895"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#231F20"
+
+[ui]
+hideTopBar = false
+
+[pages]
+# Hide the default pages sidebar
+hideSidebarNav = true
