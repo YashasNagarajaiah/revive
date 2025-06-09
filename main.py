@@ -17,7 +17,7 @@ def main():
     st.set_page_config(page_title="Revive Platform", page_icon="Ehfaaz", layout="wide", initial_sidebar_state="collapsed")
     
     # Load and display logo
-    logo_path = "C:/Users/yasha/OneDrive/Desktop/Dataset/Operations/Revive/Images/Ehfaaz Logo.jpeg"  # Adjust the path if necessary
+    logo_path = "Images\Ehfaaz Logo.jpeg"  # Adjust the path if necessary
     st.image(logo_path, width=200)  # Display the logo
     st.markdown("<h1 style='text-align: center;'>Revive - Give your used resources a new life</h1>", unsafe_allow_html=True)
 
@@ -40,7 +40,7 @@ def main():
             if st.button("Logout"):
                 st.session_state['logged_in'] = False
                 st.session_state.pop('username', None)
-                st.experimental_rerun()
+                st.rerun()
 
             with tab_overview:
                 display_overview(st.session_state['username'])
