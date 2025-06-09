@@ -17,7 +17,7 @@ def main():
     st.set_page_config(page_title="Revive Platform", page_icon="Ehfaaz", layout="wide", initial_sidebar_state="collapsed")
     
     # Load and display logo
-    logo_path = "Images\Ehfaaz Logo.jpeg"  # Adjust the path if necessary
+    logo_path = "Images\Ehfaaz_Logo.jpeg"  # Adjust the path if necessary
     st.image(logo_path, width=200)  # Display the logo
     st.markdown("<h1 style='text-align: center;'>Revive - Give your used resources a new life</h1>", unsafe_allow_html=True)
 
